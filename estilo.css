@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'texas';
-    src: url(_fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf) } 
+    src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf); } 
     @font-face {
         font-family: 'diploma';
-        src: url(_fontes/diploma/diploma.ttf);
+        src: url(fontes/diploma/diploma.ttf);
     }
     @font-face {
         font-family: 'west';
-        src: url(_fontes/WEST____.TTF);}
+        src: url(fontes/WEST____.TTF);}
         :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
  header.cabecalho {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
-  body.cabecalho{ background-image:  url('../_imagens/cevejamaior2.jpg')center center no-repeat cover;} 
+  body.cabecalho{ background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
 picture#faixada { display: block; text-align: center; margin:auto ;} 
 
 
