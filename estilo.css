@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'texas';
-    src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf); } 
+    font-family: 'texas'; src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf); } 
     @font-face {
         font-family: 'diploma';
         src: url(fontes/diploma/diploma.ttf);
@@ -10,7 +9,7 @@
         font-family: 'west';
         src: url(fontes/WEST____.TTF);}
         :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
-  .header  {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
+  header  {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
   .body { background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
 picture  { display: block; text-align: center; margin:auto ;} 
 
@@ -18,8 +17,9 @@ picture  { display: block; text-align: center; margin:auto ;}
 picture#figcaption {display: block; margin-top: -130px; margin-right:auto;margin-bottom: 5px; margin-left: auto; padding: 2px; font-family: var(--fonte2); font-size: 70px; color: coral;  }
 
 
- body { min-width: 350px; max-width: 950px;}
- body{background-image: url(../_imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
+ 
+ 
+    body { min-width: 350px; max-width: 950px;   background-image: url(../_imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
 
 body h1 {width: 500px; text-align:center;  font-family: var(--fonte3); font-size: 60px; color: rgb(255, 0, 166 ); margin: top 20em; border: 0px; padding: 3px;}
 body h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
