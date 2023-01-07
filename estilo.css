@@ -21,9 +21,9 @@ picture#figcaption {display: block; margin-top: -18em; margin-right:auto;margin-
  
     body { min-width: 20em; max-width: 54em;   background-image: url(../_imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
 
-section h1 {width: 32em; text-align:center;  font-family: var(--fonte3); font-size: 4em; color: rgb(255, 0, 166 ); margin: top 20em; border: 0px; padding: 3px;}
-section h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
-section h3 {text-align: center;font-family: var(--fonte1);font-size: 30px;color: rgb(46, 232, 8);margin: auto;}
+section#h1 {width: 32em; text-align:center;  font-family: var(--fonte3); font-size: 4em; color: rgb(255, 0, 166 ); margin: top 20em; border: 0px; padding: 3px;}
+section#h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
+section#h3 {text-align: center;font-family: var(--fonte1);font-size: 30px;color: rgb(46, 232, 8);margin: auto;}
 .h3 { margin-top:50px; color:red;}
 #qr {display: block; position: relative; margin-top: -2em;margin-right: auto; margin-left: 8em;margin-bottom: 5em;padding: 10px; }
     #qr figcaption{ text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(74, 5, 249);width: 13em;margin-left: 20px;}
@@ -33,7 +33,7 @@ ul {font-family: var(--fonte2);font-size: 30em;  font: weight 55em;; color: rgb(
 
 picture#qr {display: block; margin-top: 22em;   margin-right:auto; margin-bottom: auto; margin-left: 63em;}
 picture#qr.figcaption { display: block; margin-top: 0px;  font-family:var(--fonte1); font-size: 2em;color: rgb(255, 240, 31);}
-section {  display: block; position: left; margin: top 7em;; width: 650px; float:left; margin: 2px;   background-image:url(../_imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
+section#corpo{  display: block; position: left; margin: top 7em;; width: 650px; float:left; margin: 2px;   background-image:url(../_imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
 
 aside {display: block; position: relative;  margin-top: -8em; margin: right -12em; margin-bottom: 40px;margin-left: auto;padding: 20px; width: 32em; height: 38em; float: right; clear: both;  background-image:url(../_imagens/cerva.jpg); background-repeat: repeat; }
 
