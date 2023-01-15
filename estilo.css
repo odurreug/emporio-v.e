@@ -10,7 +10,7 @@
         src: url(fontes/WEST____.TTF);}
         :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
   header  {min-width: 20em;max-width: 54em;height: 35em;margin-bottom: 2em;}
-  .body { background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
+  
 picture  { display: block; text-align: center; margin:auto ;} 
 
 
@@ -27,14 +27,14 @@ section#h3 {text-align: center;font-family: var(--fonte1);font-size: 30px;color:
 .h3 { margin-top:50px; color:red;}
 #qr {display: block; position: relative; margin-top: -2em;margin-right: auto; margin-left: 8em;margin-bottom: 5em;padding: 10px; }
     #qr figcaption{ text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(74, 5, 249);width: 13em;margin-left: 20px;}
-.video {display:block;  width: 18em;height: 18em;margin-top: -40em;margin-right: auto;margin-bottom: 30em;margin-left: auto;}
+#gerente {display:block;  width: 18em;height: 18em;margin-top: -40em;margin-right: auto;margin-bottom: 30em;margin-left: auto;}
 
 ul {font-family: var(--fonte2);font-size: 30em;  font: weight 55em;; color: rgb(255, 0, 4); }
 
 picture#qr {display: block; margin-top: 22em;   margin-right:auto; margin-bottom: auto; margin-left: 63em;}
-picture#qr.figcaption { display: block; margin-top: 0px;  font-family:var(--fonte1); font-size: 2em;color: rgb(255, 240, 31);}
+
 section#corpo{  display: block; position: left; margin: top 7em;; width: 650px; float:left; margin: 2px;   background-image:url(../_imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
 
 aside {display: block; position: relative;  margin-top: -8em; margin: right -12em; margin-bottom: 40px;margin-left: auto;padding: 20px; width: 32em; height: 38em; float: right; clear: both;  background-image:url(../_imagens/cerva.jpg); background-repeat: repeat; }
 
-footer {display: block;min-width: 20em;max-width: 55em; margin-left: 38em; font-family: var(--fonte1) ; font-size:20px; color: rgb(16, 228, 48); position: 20px; clear: both; }
+footer {display: block; min-width: 20em; max-width: 55em; margin-left: 38em; font-family: var(--fonte1) ; font-size:20px; color: rgb(16, 228, 48); position: 20px; clear: both; }
