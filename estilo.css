@@ -8,8 +8,9 @@
     @font-face {
         font-family: 'west';
         src: url(fontes/WEST____.TTF);}
-        :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
-  header  {min-width: 20em;max-width: 54em;height: 35em;margin-bottom: 2em;}
+        .root { --fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma';} 
+
+  header  { min-width: 20em;max-width: 54em;height: 35em;margin-bottom: 2em;}
   
 picture  { display: block; text-align: center; margin:auto ;} 
 
@@ -19,22 +20,23 @@ picture#figcaption {display: block; margin-top: -18em; margin-right:auto;margin-
 
  
  
-    body { min-width: 20em; max-width: 54em;   background-image: url(../_imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
-
+    body { min-width: 20em; max-width: 54em; background-image: url('./imagens/dnod6.jpg') ; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;}
+    section {  display: block; position: left; margin: top 7em;; width: 650px; float:left; margin: 2px;   background-image:url('/imagens/interirbar.jpg');background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  }
 section#h1 {width: 32em; text-align:center;  font-family: var(--fonte3); font-size: 4em; color: rgb(255, 0, 166 ); margin: top 20em; border: 0px; padding: 3px;}
 section#h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
 section#h3 {text-align: center;font-family: var(--fonte1);font-size: 30px;color: rgb(46, 232, 8);margin: auto;}
-.h3 { margin-top:50px; color:red;}
-#qr {display: block; position: relative; margin-top: -2em;margin-right: auto; margin-left: 8em;margin-bottom: 5em;padding: 10px; }
-    #qr figcaption{ text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(74, 5, 249);width: 13em;margin-left: 20px;}
-#gerente {display:block;  width: 18em;height: 18em;margin-top: -40em;margin-right: auto;margin-bottom: 30em;margin-left: auto;}
+h3 { margin-top:50px; color:red;}
+#ol{font-family: var(--fonte2);font-size: 30em;  font: weight 55em;; color: rgb(255, 0, 4); }
+aside {display: block; position: relative;  margin-top: -8em; margin: right -12em; margin-bottom: 40px;margin-left: auto; padding: 20px; width: 32em; height: 38em; float: right; clear: both;  background-image: url('/imagens/cerva.jpg'); background-repeat: repeat; }
+#qr {display: block; position: relative; margin-top: -2em; margin-right: auto; margin-left: 8em;margin-bottom: 5em;padding: 10px; }
+ #figcaption { text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(155, 249, 5);width: 13em;margin-left: 20px;}
+aside#gerente {display:block; width: 18em; height: 30em; margin-top: -20em;margin-right: auto;margin-bottom: -30em; margin-left: auto;}
 
-ul {font-family: var(--fonte2);font-size: 30em;  font: weight 55em;; color: rgb(255, 0, 4); }
+
 
 picture#qr {display: block; margin-top: 22em;   margin-right:auto; margin-bottom: auto; margin-left: 63em;}
 
-section#corpo{  display: block; position: left; margin: top 7em;; width: 650px; float:left; margin: 2px;   background-image:url(../_imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
 
-aside {display: block; position: relative;  margin-top: -8em; margin: right -12em; margin-bottom: 40px;margin-left: auto;padding: 20px; width: 32em; height: 38em; float: right; clear: both;  background-image:url(../_imagens/cerva.jpg); background-repeat: repeat; }
 
 footer {display: block; min-width: 20em; max-width: 55em; margin-left: 38em; font-family: var(--fonte1) ; font-size:20px; color: rgb(16, 228, 48); position: 20px; clear: both; }
+
