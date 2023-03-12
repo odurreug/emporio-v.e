@@ -8,7 +8,7 @@
     @font-face {
         font-family: 'west';
         src: url(fontes/WEST____.TTF);}
-        .root { --fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma';} 
+        :root { --fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma';} 
 
   header  { min-width: 400px; max-width: 900px; height: 200px; margin-bottom: 30px;}
   
