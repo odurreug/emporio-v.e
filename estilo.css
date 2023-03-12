@@ -10,20 +10,20 @@
         src: url(fontes/WEST____.TTF);}
         .root { --fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma';} 
 
-  header  { min-width: 400px; max-width: 900px;height: 400px;margin-bottom: 30px;}
+  header  { min-width: 400px; max-width: 900px; height: 200px; margin-bottom: 30px;}
   
 picture  { display: block; text-align: center; margin: auto ;} 
 
 
-picture#figcaption {display: block; margin-top: -18em; margin-right:auto ;margin-bottom: 30px; margin-left: auto; padding: 2px; font-family: var(--fonte2); font-size: 40px; color: coral;  }
+picture#figcaption {display: block; margin-top: -300px; margin-right:auto ;margin-bottom: 30px; margin-left: auto; padding: 2px; font-family: var(--fonte2); font-size: 40px; color: coral;  }
 
 
  
  
-    body { min-width: 400px; max-width: 950px; height: 950px;  background-color: blue;}
+    body { min-width: 400px; max-width: 950px; height: 950px;  background-color: rgb(9, 255, 0);}
 
     .corpo {  display: block; position: left; margin: top 90px; width: 650px; float:left; margin: 2px;   background-image:url('/imagens/interirbar.jpg');background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  }
-section#h1 {width: 32em; text-align:center;  font-family: var(--fonte3); font-size: 50px; color: rgb(255, 0, 166 ); margin: top 320px; border: 0px; padding: 3px;}
+section#h1 { text-align:center;  font-family: var(--fonte3); font-size: 50px; color: rgb(255, 0, 166 ); margin: top 320px; border: 0px; padding: 3px;}
 section#h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
 section#h3 {text-align: center;font-family: var(--fonte1);font-size: 30px; color: rgb(46, 232, 8);margin: auto;}
 h3 { margin-top: 50px; color:red;}
@@ -31,7 +31,7 @@ h3 { margin-top: 50px; color:red;}
 aside {display: block; position: relative;  margin-top: -120px; margin: right -200px; margin-bottom: 40px;margin-left: auto; padding: 20px; width: 50px; height: 60px; float: right; clear: both;  background-image: url('/imagens/cerva.jpg'); background-repeat: repeat; }
 #qr {display: block; position: relative; margin-top: -40px; margin-right: auto; margin-left: 120px;margin-bottom: 80px;padding: 10px; }
  #figcaption { text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(155, 249, 5);width: 13em;margin-left: 20px;}
-aside#gerente {display:block; width: 300px; height: 400px; margin-top: -320px;margin-right: auto;margin-bottom: -400px; margin-left: auto;}
+#gerente {display:block; width: 300px; height: 400px; margin-top: -320px;margin-right: auto;margin-bottom: -400px; margin-left: auto;}
 
 
 
