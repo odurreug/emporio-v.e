@@ -31,7 +31,7 @@ h3 { margin-top: 50px; color:red;}
 aside {display: block; position: relative;  margin-top: -120px; margin: right -200px; margin-bottom: 40px;margin-left: auto; padding: 20px; width: 50px; height: 60px; float: right; clear: both;  background-image: url('/imagens/cerva.jpg'); background-repeat: repeat; }
 #qr {display: block; position: relative; margin-top: -40px; margin-right: auto; margin-left: 120px;margin-bottom: 80px;padding: 10px; }
  #figcaption { text-align:justify;   font-family: var(--fonte3); font-size: 25px; color: rgb(155, 249, 5);width: 13em;margin-left: 20px;}
-#gerente {display:block; width: 300px; height: 400px; margin-top: -320px;margin-right: auto;margin-bottom: -400px; margin-left: auto;}
+.gerente {display:block; width: 300px; height: 400px; margin-top: -320px;margin-right: auto;margin-bottom: -400px; margin-left: auto;}
 
 
 
